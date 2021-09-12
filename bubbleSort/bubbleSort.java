@@ -1,4 +1,6 @@
-float[] values;
+public class bubbleSort
+{
+  float[] values;
 
 void setup(){
 size(800, 500);
@@ -33,4 +35,4 @@ void swap(float[] arr, int i,int j){
   float tmp = arr[i];
   arr[i]=arr[j];
   arr[j]= tmp;
-}
+}}
