@@ -4,3 +4,4 @@ function greeting(greet)
 }
 
 greeting('Hello')
+greeting('Bon Jour')
