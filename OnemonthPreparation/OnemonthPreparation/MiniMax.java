@@ -1,6 +1,4 @@
 package OnemonthPreparation;
-
-import java.io.*;
 import java.util.*;
 
 public class MiniMax {
@@ -9,10 +7,13 @@ public class MiniMax {
     {
         Scanner sc= new Scanner(System.in);
         long[] m = new long[5];
+
         for (int i =0;i<5;i++)
         {
             m[i]=sc.nextLong();
         }
+        sc.close();
+        
         Arrays.sort(m);
         long x=0;
         long y=0;
