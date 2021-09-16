@@ -1,0 +1,69 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        
+        {
+            "name": "Python: Current File",
+            "ty[e": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+
+        
+        
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiniMax",
+            "request": "launch",
+            "mainClass": "OnemonthPreparation.MiniMax",
+            "projectName": "Algorithm-Hub_9a95c57f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusMinus",
+            "request": "launch",
+            "mainClass": "OnemonthPreparation.PlusMinus",
+            "projectName": "Algorithm-Hub_9a95c57f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SparseArray",
+            "request": "launch",
+            "mainClass": "OnemonthPreparation.SparseArray",
+            "projectName": "Algorithm-Hub_9a95c57f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeConvertion",
+            "request": "launch",
+            "mainClass": "OnemonthPreparation.TimeConvertion",
+            "projectName": "Algorithm-Hub_9a95c57f"
+        }
+    ]
+}
